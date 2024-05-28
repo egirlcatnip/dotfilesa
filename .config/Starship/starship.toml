@@ -1,137 +1,184 @@
+palette = "catppuccin_mocha"
+
+
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
+
+
 [character]
-disabled = false
-success_symbol = '[](bold green)'
-error_symbol = '[](bold red)'
-vimcmd_symbol = '[](bold green)'
-vimcmd_replace_one_symbol = '[](bold purple)'
-vimcmd_replace_symbol = '[](bold purple)'
-vimcmd_visual_symbol = '[](bold yellow)'
+success_symbol = "[ ](bold green)"
+error_symbol = "[ ](bold red)"
+
+[directory]
+truncation_length = 5
+truncation_symbol = '‥/'
+before_repo_root_style = "‥/"
+style = "blue bold"
+
+[package]
+version_format = "${raw}"
+format = "is [$version]($style) "
+style = "maroon bold"
+
+[git_branch]
+always_show_remote = false
+format = "on [$branch(:$remote_branch)]($style) "
+style = "bold red"
+
 
 [bun]
-format = "via [$symbol]($style)"
+format = "[$symbol]($style)"
 
 [buf]
-format = "via [$symbol]($style)"
+format = "[$symbol]($style)"
 
 [cmake]
-format = "via [$symbol]($style)"
+format = "[$symbol]($style)"
 
 [cobol]
-format = "via [$symbol]($style)"
+format = "[$symbol]($style)"
 
 [crystal]
-format = "via [$symbol]($style)"
+format = "[$symbol]($style)"
 
 [daml]
-format = "via [$symbol]($style)"
+format = "[$symbol]($style)"
 
 [dart]
-format = "via [$symbol]($style)"
+format = "[$symbol]($style)"
 
 [deno]
-format = "via [$symbol]($style)"
+format = "[$symbol]($style)"
 
 [dotnet]
 format = "[$symbol(🎯 $tfm )]($style)"
 
 [elixir]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [elm]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [erlang]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [fennel]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
+
+[gleam]
+format = '[$symbol]($style)'
 
 [golang]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [gradle]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [haxe]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [helm]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [java]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [julia]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [kotlin]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [lua]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [meson]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [nim]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [nodejs]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [ocaml]
-format = 'via [$symbol(\($switch_indicator$switch_name\) )]($style)'
+format = '[$symbol(\($switch_indicator$switch_name\) )]($style)'
 
 [opa]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [perl]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [php]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [pulumi]
-format = 'via [$symbol$stack]($style)'
+format = '[$symbol$stack]($style)'
 
 [purescript]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [python]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [quarto]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [raku]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [red]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [rlang]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [ruby]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [rust]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [solidity]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [typst]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [swift]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [vagrant]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [vlang]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
 
 [zig]
-format = 'via [$symbol]($style)'
+format = '[$symbol]($style)'
