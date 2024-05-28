@@ -1,2 +1,1 @@
-# dotfiles
-My dotfiles, powered by comtrya
+### egirlcatnip's dotfiles
