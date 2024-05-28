@@ -47,7 +47,7 @@ export FZF_DEFAULT_OPTS="
 path+=("~/.cargo/bin/")
 
 #CONFIGS
-export STARSHIP_CONFIG=~/.config/Starship/starship.toml
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
 
 
