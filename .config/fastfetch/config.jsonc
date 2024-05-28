@@ -1,0 +1,42 @@
+{
+  "logo": {
+      //"separate": true,
+
+      "padding": {
+      "left": 2
+      }
+  },
+
+  "display": {
+    "hideCursor": true,
+    "showErrors": true,
+    "binaryPrefix": "iec",
+    "size": {
+      "ndigits": 0,
+      //"maxprefix": "",
+    },
+  },
+
+
+
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "uptime",
+    "kernel",
+    "de",
+    "separator",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "separator",
+    "disk",
+    "separator",
+    //"battery",
+     "break",
+    //"colors"
+  ]
+}
