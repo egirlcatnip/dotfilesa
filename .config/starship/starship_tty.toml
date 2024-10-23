@@ -1,0 +1,34 @@
+add_newline = false
+
+format = "$shell $all"
+
+[shell]
+fish_indicator = "fish"
+bash_indicator = "bash"
+nu_indicator = "nushell"
+xonsh_indicator = "xonsh"
+
+style = "default bold"
+format = "[$indicator]($style)"
+disabled = false
+
+[character]
+success_symbol = "[> ](bold green)"
+error_symbol = "[> ](bold red)"
+
+[directory]
+style = "blue bold"
+truncation_length = 0
+
+[package]
+version_format = "${raw}"
+format = "is [$version]($style) "
+style = "maroon bold"
+
+[git_branch]
+always_show_remote = false
+format = "on [$branch(:$remote_branch)]($style) "
+style = "bold red"
+
+[c]
+commands = [['clang', '--version'], ['cc', '--version'], ['gcc', '--version']]
